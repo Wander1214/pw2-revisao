@@ -2,9 +2,15 @@
 public class ExercicioUm {
 
 	public static void main(String[] args) {
-		String nome = "luiz ";
-		String sobrenome = "gustavo";
-		String idade = "16";
-		System.out.println(nome +  sobrenome + " Sua idade é: " + idade);
+		int num = 6;
+		if (num<0) {
+			System.out.println("-1");
+		}
+		if (num ==0) {
+			System.out.println("0");
+		}
+		if (num>0) {
+			System.out.println("1");
+		}
 	}
 }
